@@ -13,9 +13,9 @@
 
 | Файл | Игра | Источник ростера | Тип источника | Имена и статусы | Способности |
 |---|---|---|---|---|---|
-| [`01-forsaken.md`](01-forsaken.md) | Forsaken | `forsaken.wiki/Characters` + персональные страницы | Официально поддерживаемая вики, наполняется сообществом | полные, 21 | **частично — 2 из 21** |
-| [`02-bite-by-night.md`](02-bite-by-night.md) | Bite By Night | `bite-by-night.fandom.com` | Официальная вики (заявлено на главной) | полные, 3 убийцы + 5 классов | выжившие — да, убийцы — нет |
-| [`03-die-of-death.md`](03-die-of-death.md) | Die of Death | `die-of-death.fandom.com` | Вики сообщества | полные, 5 убийц | способности выживших — **да (15)**, убийц — нет |
+| [`01-forsaken.md`](01-forsaken.md) | Forsaken | персональные страницы `forsaken.wiki`, `?action=raw` | Официально поддерживаемая вики, наполняется сообществом | полные, 21 | **13/13 выживших, 8/8 убийц (часть наборов неполна)** |
+| [`02-bite-by-night.md`](02-bite-by-night.md) | Bite By Night | `bite-by-night.fandom.com`, страница The Rotten | Вики сообщества, само заявляет «OFFICIAL Wiki» | полные, 3 убийцы + 5 классов | выжившие — да; убийцы — **только The Rotten** |
+| [`03-die-of-death.md`](03-die-of-death.md) | Die of Death | `die-of-death.fandom.com`, страница Pursuer | Вики сообщества | полные, 5 убийц | выжившие — **да (15)**; убийцы — **только Pursuer** |
 | [`04-violence-district.md`](04-violence-district.md) | Violence District | `violencedistrict.fandom.com`, персональные страницы убийц | Вики сообщества | **полные, 9** | **да — 9/9, скиллы и перки** |
 | [`05-dead-by-daylight.md`](05-dead-by-daylight.md) | Dead by Daylight | `deadbydaylight.wiki.gg` | **Официальная вики** | полные, 45 + 55 | убийцы — **да (45 сил)**, перки выживших — нет |
 
@@ -92,7 +92,10 @@
 | Персональные способности **19 из 21** персонажа Forsaken | Персональные страницы `forsaken.wiki` — по 9 фрагментов каждая; `api.php` и `rest.php/v1` на хосте недоступны (ответ «File not found»). Подтверждены только **Shedletsky** и **Elliot** |
 | **Описания** 45 сил убийц DbD (названия есть) | Описания формируются модулем `Loadout.getPowerByOwner` и напрямую не выгружаются; со страницы `Powers` получены только названия |
 | Персональные перки всех **55** выживших DbD | Раздел формируется модулем `Loadout.getPerksByCategory`; 165 перков не выгружены. Механизм (у каждого выжившего 3 уникальных перка) подтверждён |
-| Способности 8 убийц Forsaken, 3 убийц Bite By Night, 5 убийц Die of Death, 9 убийц Violence District | Не выгружены в этой итерации |
+| Способности **The Project** и **The Doppelganger** (BBN) | Персональные страницы не выгружались в этой проверке |
+| Способности **Badware, Artful, Harken, Killdroid** (DoD) | Персональные страницы не выгружались в этой проверке |
+| Часть наборов Forsaken (Dusekkar Plasma Beam; Veeronica Sk8, Broadcast; Jane Doe Hatchet; Noli Void Rush, Nova, Observant; Guest 666 Eviscerate, Demonic Pursuit, Infernal Cry, Blood Hunt; Nosferatu Ascension, Hunter's Feast; Azure Seeker Bulb, Stigmatize, Perforating, Pummeling, Golem; 1x1x1x1 Rejuvenate The Rotten) | Страницы обрезаны на границе фрагмента; выгружен только первый фрагмент |
+| **Описания 45 Powers DbD и 165 персональных Perks DbD** | Формируются Lua-модулями `Loadout.getPowerByOwner` / `getPerksByCategory`; обход 45+55 страниц не поместился в бюджет проверки |
 | Выжившие Violence District — список персонажей | Страница Survivors отдаёт пустой HTML-скелет при `?action=raw`; именованного ростера нет. Получены только предметы и отдельные перки |
 | Точные даты редакции страниц вики | Fandom и wiki.gg отдают историю правок отдельными запросами |
 | Версии и патчи для персонажей Bite By Night | Игра на обслуживании; вики не содержит привязки персонажей к версиям |

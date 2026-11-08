@@ -108,6 +108,34 @@
 
 ---
 
+### Проверка записи `The Slasher = Jason Voorhees` — выполнено 2026-11-08
+
+Прошлый отчёт привёл `The Slasher = Jason Voorhees = Omnipresent Evil` в разделе Dead by Daylight. Проверено независимо: **запись верна и относится именно к Dead by Daylight.**
+
+**Что показал модуль вики** (`Module:Datatable`, фрагмент 4):
+
+```
+{id = 43, name = "Slasher", realName = "Jason Voorhees", gender = "Man",
+ origin = "American", power = "Omnipresent Evil", ... weapon = "Classic Machete",
+ speed = 4.4, radius = 32, height = 'A', dlc = 63, actor = "None"}
+```
+
+**Независимые подтверждения (веб-поиск):**
+
+| Источник | Что подтверждает |
+|---|---|
+| [Bleeding Cool, 25.05.2026](https://bleedingcool.com/games/friday-the-13ths-jason-voorhees-info-revealed-for-dead-by-daylight/) | «Jason Voorhees is **The Slasher** in Dead by Daylight»; Jason — Killer 10-летия; PTB 26 мая 2026, релиз 16 июня 2026; сила разделена на **Omnipresent Evil** и **Improvised Carnage** |
+| [TechTimes, 16.06.2026](https://www.techtimes.com/articles/318508/20260616/jason-voorhees-arrives-dead-daylight-today-decade-long-wait-ends.htm) | **Chapter 40: Jason**, релиз 16 июня 2026, 11:00 ET, в день 10-летия игры; «Chapter 40 adds Jason under the in-game designation **"The Slasher"**» |
+| [CDKeyPrices, 10.07.2026](https://cdkeyprices.uk/news/dead-by-daylight-adds-jason-voorhees-as-its-10th-anniversary-killer) | Chapter 40; PTB 26.05.2026; релиз 16.06.2026; силы Omnipresent Evil + Improvised Carnage; партнёр — Jason Universe (Horror Inc.) |
+
+**Механика Omnipresent Evil (по независимым источникам):** Джейсон исчезает с карты, становится невидимым и теряет радиус террора, получает значительный прирост скорости (8 м/с = 200% против обычных 4.4 м/с = 110%); не может атаковать и не видит выживших и Scratch Marks, но слышит ремонт генераторов и различает следы. Выход — через **Jump Scare**: телепорт к паллете, разрушаемой стене или окну с Killer Instinct. Также есть метательные шипы (Throwing Spikes / Impaling Throw).
+
+> **Важно — совпадение имён между играми.** В Violence District **тоже есть персонаж с игровым именем The Slasher** (бесплатный убийца, способности Lake of Mist и Pursuit), и у него есть образ **Jason**. Это **разные персонажи в разных играх**. Настоящее имя **Jason Voorhees** и сила **Omnipresent Evil** принадлежат **только** Dead by Daylight. Никакие данные не переносятся между этими играми.
+
+**Аналогичная проверка `The Shape = Michael Myers = Evil Within`:** запись подтверждена данными модуля (`{id = 5, name = "Shape", realName = "Michael Myers", altName = {"Boogeyman", "Stalker"}, ... power = "Evil Within"}`). Это персонаж Dead by Daylight (глава The HALLOWEEN® Chapter). Michael Myers в Violence District — это **образ (скин) The Stalker** (`SCP-035 myers skin`), то есть тоже совпадение, а не перенос.
+
+---
+
 ## Survivors — 55 (по массиву данных и категории)
 
 **Принципиально: выжившие в Dead by Daylight НЕ имеют уникальных активных способностей.** У них нет аналога Killer Power. Различия — в **персональных перках**, **предметах** и **уникальной анимации у костра** (последнее подтверждено: «Each Survivor has a unique animation for waiting around The Campfire»).
