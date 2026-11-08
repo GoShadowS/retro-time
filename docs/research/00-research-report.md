@@ -21,7 +21,7 @@
 
 ## 0. Краткое резюме
 
-1. **Главные ориентиры подтверждены и найдены.** Для Forsaken и Die of Death есть активные вики сообщества; для Bite By Night есть связанная вики; для Dead by Daylight — официальная вики на wiki.gg; для Violence District — две независимые неофициальные вики.
+1. **Главные ориентиры подтверждены и найдены.** Для Forsaken есть **официально поддерживаемая вики** `forsaken.wiki` и отдельная вики сообщества на Fandom; для Die of Death и Bite By Night есть активные вики сообщества; для Dead by Daylight — официальная вики на wiki.gg; для Violence District — две независимые неофициальные вики.
 2. **Ключевая находка по составам.** Твои числа (9 / 14 / 9 игроков) почти точно совпадают с устройством серверов Forsaken и Die of Death: там максимум 9 игроков на сервер (1 убийца + 8 выживших), а режим **Double Trouble 2 против 12** (итого 14) — это именно тот формат, который Forsaken готовит к выпуску [1](https://forsaken2024.fandom.com/wiki/Double_Trouble). Режим с названием **One Bounce** существует в Die of Death и означает «1 гипер-баффнутый выживший против всех остальных убийц» [2](https://die-of-death.fandom.com/wiki/Gamemodes). **Это наблюдение о совпадении названий и чисел, а не утверждение, что наши правила должны быть такими же.**
 3. **Важное ограничение по Bite By Night.** Игра находится на обслуживании (maintenance) с мая 2026 года и на момент проверки была недоступна — страница вернула «Content not accessible» [3](https://www.rolimons.com/game/70845479499574), [4](https://allthings.how/bite-by-night-maintenance-status-after-developer-resignations/). Изучить её можно только по вики и видео. Часть разработчиков покинула проект [4](https://allthings.how/bite-by-night-maintenance-status-after-developer-resignations/). **Пользователь сообщил, что ожидает возвращения в конце ноября — начале декабря 2026** — это [Пользователь], а не подтверждённый факт. **Статус решён: референс оставляем, не заменяем.**
 4. **Bite By Night — это FNaF-фан-игра.** Её убийцы — аниматроники (Springtrap, The Mimic, Ennard) [5](https://bite-by-night.fandom.com/wiki/Killers). Это **прямая зона риска копирования**: нам нельзя брать ни их персонажей, ни модель «ночь до 6 утра», ни саму схему «аниматроник-убийца».
@@ -71,7 +71,8 @@
 ### 2.2. Геймплей (подтверждённое)
 
 - **Состав:** 1 убийца против всех остальных игроков сервера; полный сервер — 9 игроков, то есть до 8 выживших [9](https://www.forsakenhub.com/faq) [В/третье лицо], [8](https://forsaken2024.fandom.com/wiki/FORSAKEN) [В].
-- **Таймер раунда:** 4:00 при 6+ выживших, 3:30 при 5, 3:00 при 4 и менее [9](https://www.forsakenhub.com/faq) [В]. Форсакен-стартовая длительность 4:00 подтверждена и официальной вики [8](https://forsaken2024.fandom.com/wiki/FORSAKEN) [В].
+- **Таймер раунда:** 4:00 при 6+ выживших, 3:30 при 5, 3:00 при 4 и менее [9](https://www.forsakenhub.com/faq) [В].
+  - **ИСПРАВЛЕНО 2026-11-08:** числа перепроверены на **официально поддерживаемой** вики `forsaken.wiki` (страница Game Mechanics) и **подтверждены**. Прежняя ссылка на `forsaken2024.fandom.com` как на «официальную вики» — **ошибочна**: это вики сообщества. Подробности — в `docs/research/02-core-loop-references.md`, раздел 2.
 - **Цель выживших:** продержаться до нуля таймера. **Цель убийцы:** устранить всех выживших [8](https://forsaken2024.fandom.com/wiki/FORSAKEN) [В].
 - **Генераторы:** единственный публичный тип целей после реворка 1.2.0; на карте 5 генераторов; выполнение сокращает таймер [10](https://forsaken2024.fandom.com/wiki/Objectives) [В]. По данным стороннего гида: −2.4 с за головоломку, −12 с за генератор, −60 с за все пять [9](https://www.forsakenhub.com/faq) [В, не подтверждено независимо].
 - **Убийца удлиняет время:** +40 секунд за каждое устранение [9](https://www.forsakenhub.com/faq) [В].
@@ -83,7 +84,7 @@
 
 ### 2.3. Режимы
 
-Страница режимов официальной вики [12](https://forsaken2024.fandom.com/wiki/Gamemodes) [В]:
+Страница режимов вики сообщества [12](https://forsaken2024.fandom.com/wiki/Gamemodes) [В] — **НЕ официальная**, см. исправление выше:
 - **Доступны:** базовый FORSAKEN, Randomizer.
 - **Готовятся:** **Double Trouble**, Extermination.
 - **Не подтверждены:** Swapsaken, The Spectre's Favour, Enochlophobia.
@@ -355,7 +356,7 @@
 | LMS | Да, 1:14 | Нет данных | Да, 1:15 | Нет данных | Нет данных |
 | Кто становится убийцей | Malice | Случайно | Evilness | Sin Points | Выбор игрока |
 | Статус | Активна | **На обслуживании с мая 2026** | Активна | Альфа | Активна |
-| Вики | forsaken2024.fandom.com | bite-by-night.fandom.com | die-of-death.fandom.com | 2 неофициальные | deadbydaylight.wiki.gg (офиц.) |
+| Вики | **forsaken.wiki** (офиц. поддерживаемая) и forsaken2024.fandom.com (сообщество) | bite-by-night.fandom.com | die-of-death.fandom.com | 2 неофициальные | deadbydaylight.wiki.gg (офиц.) |
 
 ---
 
@@ -484,11 +485,15 @@
 
 | Вики / сайт | Страница | Тип | Ссылка |
 |---|---|---|---|
-| FORSAKEN Wiki (Fandom) | Главная | Сообщество | https://forsaken2024.fandom.com/wiki/FORSAKEN_Wiki |
-| FORSAKEN Wiki (Fandom) | FORSAKEN | Сообщество | https://forsaken2024.fandom.com/wiki/FORSAKEN |
-| FORSAKEN Wiki (Fandom) | Gamemodes | Сообщество | https://forsaken2024.fandom.com/wiki/Gamemodes |
-| FORSAKEN Wiki (Fandom) | Objectives | Сообщество | https://forsaken2024.fandom.com/wiki/Objectives |
-| FORSAKEN Wiki (Fandom) | Statistics | Сообщество | https://forsaken2024.fandom.com/wiki/Statistics |
+| **Forsaken Wiki (forsaken.wiki)** | Главная | **Официально поддерживаемая**, наполняется сообществом | https://forsaken.wiki/Main_Page |
+| **Forsaken Wiki (forsaken.wiki)** | **Game Mechanics** | То же | https://forsaken.wiki/Game_Mechanics |
+| **Forsaken Wiki (forsaken.wiki)** | **Generators** | То же | https://forsaken.wiki/Generators |
+| **Forsaken Wiki (forsaken.wiki)** | **Objectives** | То же | https://forsaken.wiki/Objectives |
+| FORSAKEN Wiki (Fandom) | Главная | Сообщество, **НЕ официальная** | https://forsaken2024.fandom.com/wiki/FORSAKEN_Wiki |
+| FORSAKEN Wiki (Fandom) | FORSAKEN | Сообщество, **НЕ официальная** | https://forsaken2024.fandom.com/wiki/FORSAKEN |
+| FORSAKEN Wiki (Fandom) | Gamemodes | Сообщество, **НЕ официальная** | https://forsaken2024.fandom.com/wiki/Gamemodes |
+| FORSAKEN Wiki (Fandom) | Objectives | Сообщество, **НЕ официальная** | https://forsaken2024.fandom.com/wiki/Objectives |
+| FORSAKEN Wiki (Fandom) | Statistics | Сообщество, **НЕ официальная** | https://forsaken2024.fandom.com/wiki/Statistics |
 | Die of Death Wiki (Fandom) | Die of Death | Сообщество | https://die-of-death.fandom.com/wiki/Die_of_Death |
 | Die of Death Wiki (Fandom) | **Gamemodes** | Сообщество | https://die-of-death.fandom.com/wiki/Gamemodes |
 | Die of Death Wiki (Fandom) | Civilians | Сообщество | https://die-of-death.fandom.com/wiki/Civilians |
