@@ -26,13 +26,37 @@
 
 ### Ключевое различие: Civilians — это НЕ персонажи
 
-**Civilians не являются игровыми персонажами с собственным именем и набором способностей.**
+**Civilians не являются игровыми персонажами с собственным именем и набором способностей.** Выживший — это игрок со случайной колодой, а не герой. **Списка «персонажей-выживших» для Die of Death не существует.**
 
-Подтверждённая механика: в начале раунда гражданским выдаётся **1 из 3 колод по 2 случайные способности** (всего abilities в игре — по разным страницам вики **11** или **15**; расхождение внутри одной вики не разрешено).
+**Подтверждённая механика (страница Abilities, загружена 2026-11-08):**
 
-Формулировка вики (режим Normal): «...up to 8 **Civilians**, who will have to fend off the **Killer** by choosing **1 of 3 Decks with 2 random Abilities** handed out to them at the beginning of the round».
+> «Abilities are randomized skills that the player can get as a Civilian at the start of the round. There is only **2 slots** for Abilities that you can get. There is 2 ways to get Abilities, one being in the Private Server Panel, and the other being that you get **3 cards** you can get to choose from at the start of the round. You can only select one of those said cards to get the Abilities which said card has, in each card, you can see what Abilities the card has and you can choose whichever you like the most.»
 
-**Поэтому списка «персонажей-выживших» для Die of Death не существует.** Выживший — это игрок со случайной колодой, а не герой.
+Источник: [die-of-death.fandom.com/wiki/Abilities](https://die-of-death.fandom.com/wiki/Abilities) (`?action=raw`). Тип: **[В]**.
+
+### Расхождение по числу способностей — РАЗРЕШЕНО
+
+Прежний отчёт оставил расхождение «11 или 15» открытым. **Проверка разрешила его:**
+
+| Источник | Число | Формулировка |
+|---|---:|---|
+| Страница **Abilities** (профильная) | **15** | «There is currently **15 Abilities** and **4 Synergies** in Die of Death» |
+| Старые проектные записи | 11 | Устаревшее значение |
+
+**Принято: 15.** Подтверждается и косвенно: на той же странице указано «There are a total of **105 combinations** of Abilities» — ровно C(15,2) = 105, что согласуется с 15 способностями и 2 слотами.
+
+**Полный перечень из 15 способностей** (все — статус «доступна», источник: страница Abilities):
+
+Adrenaline · Banana Peel · Block · BonusPad · Bugle · Caretaker · Cloak · Dash · Flashlight · Hotdog · Punch · Pie · Reroll · Revolver · Taunt
+
+**Вне актуального ростера:**
+
+| Статус | Способность |
+|---|---|
+| Upcoming | Unknown Hood ability / HIOB ability; **Careless** (LMS-вариант Caretaker, в переработке) |
+| Panel-Exclusive (приватные серверы) | **ShotgunShoot** (40 урона, отбрасывание, перезарядка 0.4 с), **ShotgunKick** (15 урона, Ragdolled, отбрасывание, перезарядка 0.1 с) |
+
+**Важная деталь для понимания механики:** Civilian accessories выдаются способностями и **показывают, что умеет выживший** — классический Roblox-аксессуар, изменение лица или торса. Например, Caretaker даёт Nurse Hat с зелёным крестом и белый торс; Revolver — ковбойскую шляпу Aussie Slouch и коричневый торс.
 
 ---
 
